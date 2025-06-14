@@ -7,4 +7,5 @@ For this to work in python you will to install pynput and pyautogui
 pip install pyautogui
 
 pip install pynput
+
 copy and paste those commands above to do so in your python command line

@@ -1,6 +1,6 @@
 import pyautogui as pa
 from pynput import keyboard
-import time
+print("Running")
 def numpad(key):
     try:
         if key.char == ('+'):
@@ -12,3 +12,4 @@ def numpad(key):
 
 with keyboard.Listener(on_press=numpad) as listener:
     listener.join()
+input("Press enter to exit program...")
